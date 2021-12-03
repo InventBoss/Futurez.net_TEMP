@@ -1,5 +1,24 @@
-# Futurez.net
+# futurez
 
-This will be an idle/incremental game based on creating a space colony. I'm gonna see if I can do this game in a pixel art style.
+## Project setup
+```
+npm install
+```
 
-I will be using Tailwind CSS and Vue to help with building this.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
