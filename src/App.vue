@@ -1,11 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <body />
+  <div class="box" source="height: 100vw">
+    <img
+      alt="Is this a background? Yes!"
+      src="./assets/background.png"
+      style="width: 100%; height: 100%"
+    />
+  </div>
+  <HelloWorld />
 </template>
-
 <script>
 document.title = "Futurez - Become a Capitalist";
-import HelloWorld from "./components/HelloWorld.vue";
+import HelloWorld from "./components/GameWindow.vue";
 
 export default {
   name: "App",
@@ -21,7 +27,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #470035;
-  margin-top: 60px;
+  color: #000000;
+}
+
+body {
+  background-color: rgb(215, 216, 60);
+  margin: 0px;
 }
 </style>
