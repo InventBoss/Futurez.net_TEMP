@@ -14,7 +14,7 @@
       </li>
       <li>
         <a
-          href="https://github.com/InventBoss/Futurez.net/blob/main/src/App.vue"
+          href="https://github.com/InventBoss/Futurez.net"
           style="color: #033300"
           target="_blank"
           rel="noopener"
@@ -22,15 +22,13 @@
           <br />
           Github
         </a>
-      </li>
-      <li>
+        <b> - </b>
         <a
-          href="https://github.com/InventBoss/Futurez.net/blob/main/src/App.vue"
+          href="https://twitter.com/Invent_Boss"
           style="color: #033300"
           target="_blank"
           rel="noopener"
         >
-          <br />
           Twitter
         </a>
       </li>

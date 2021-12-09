@@ -4,7 +4,6 @@
   <GameWindow />
 </template>
 <script>
-document.title = "Futurez - Become a Capitalist";
 import GameWindow from "./components/GameWindow.vue";
 
 export default {
