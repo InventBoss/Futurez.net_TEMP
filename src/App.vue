@@ -1,22 +1,16 @@
 <template>
-  <body />
-  <div class="box" source="height: 100vw">
-    <img
-      alt="Is this a background? Yes!"
-      src="./assets/background.png"
-      style="width: 100%; height: 100%"
-    />
-  </div>
-  <HelloWorld />
+  <img src="./assets/cat.png" style="width: 20vw" />
+
+  <GameWindow />
 </template>
 <script>
 document.title = "Futurez - Become a Capitalist";
-import HelloWorld from "./components/GameWindow.vue";
+import GameWindow from "./components/GameWindow.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    GameWindow,
   },
 };
 </script>
@@ -28,10 +22,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #000000;
-}
-
-body {
-  background-color: rgb(215, 216, 60);
-  margin: 0px;
 }
 </style>
