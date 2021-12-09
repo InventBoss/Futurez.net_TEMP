@@ -1,5 +1,5 @@
 <template>
-  <img src="./assets/cat.png" style="width: 20vw" />
+  <img src="./assets/cat.png" style="width: calc(10vw + 10vh)" />
 
   <GameWindow />
 </template>
