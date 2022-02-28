@@ -11,6 +11,11 @@
     content="https://futurez.net/img/cat.5e8d8104.png"
   />
   <title>Futurez - Become a Capitalist</title>
+  <img
+    src="./assets/MarsBackground.png"
+    alt="The background photo of mars"
+    style="width: 100vw; height: 99vh"
+  />
   <div
     ref="gameDiv"
     style="
@@ -44,10 +49,13 @@ export default {
     const gameFile = require("./js/game.js");
     gameFile.run(this);
   },
-  components: { GameTitle, LowerBar },
+  components: { LowerBar, GameTitle },
 };
 </script>
 <style>
+#app {
+  height: 100vw;
+}
 @font-face {
   font-family: "JetbrainsMono";
   src: local("JetbrainsMono"), url(../src/assets/fonts/JetBrainsMono-Bold.woff2);

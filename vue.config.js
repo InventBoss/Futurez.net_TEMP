@@ -5,16 +5,16 @@
 module.exports = {
   pages: {
     index: {
-      title: "Futurez - Become a Capitalist",
       entry: "./src/main.js",
       template: "public/index.html",
       filename: "index.html",
+      chunks: ["chunk-vendors", "chunk-common", "index"],
     },
     updates: {
-      title: "Futurez - Update Stream",
       entry: "./src/pages/updates/main.js",
       template: "public/index.html",
       filename: "updates.html",
+      chunks: ["chunk-vendors", "chunk-common", "index"],
     },
   },
 };
