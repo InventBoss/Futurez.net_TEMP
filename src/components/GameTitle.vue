@@ -9,7 +9,7 @@
       width: 99.5%;
       outline: none;
       border: 0;
-      background-color: #4e2f00;
+      background-color: #472000;
       text-align: center;
       font-size: calc(1.5vw + 1.5vh);
       font-family: JetbrainsMono;

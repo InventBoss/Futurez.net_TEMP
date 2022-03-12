@@ -11,11 +11,6 @@
     content="https://futurez.net/img/cat.5e8d8104.png"
   />
   <title>Futurez - Become a Capitalist</title>
-  <img
-    src="./assets/MarsBackground.png"
-    alt="The background photo of mars"
-    style="width: 100vw; height: 99vh"
-  />
   <div
     ref="gameDiv"
     style="
@@ -34,6 +29,7 @@
 <script>
 import GameTitle from "./components/GameTitle.vue";
 import LowerBar from "./components/LowerBar.vue";
+const gameFile = require("./js/game.js");
 
 export default {
   name: "App",
@@ -46,7 +42,6 @@ export default {
     return {};
   },
   async mounted() {
-    const gameFile = require("./js/game.js");
     gameFile.run(this);
   },
   components: { LowerBar, GameTitle },
@@ -54,7 +49,11 @@ export default {
 </script>
 <style>
 #app {
-  height: 100vw;
+  height: 100vh;
+  background-image: url(../src/assets/MarsBackgroundTemp.png);
+  background-size: 20%;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: pixelated;
 }
 @font-face {
   font-family: "JetbrainsMono";

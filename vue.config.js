@@ -13,8 +13,8 @@ module.exports = {
     updates: {
       entry: "./src/pages/updates/main.js",
       template: "public/index.html",
-      filename: "updates.html",
-      chunks: ["chunk-vendors", "chunk-common", "index"],
+      filename: "html/updates.html",
+      chunks: ["chunk-vendors", "chunk-common", "updates"],
     },
   },
 };

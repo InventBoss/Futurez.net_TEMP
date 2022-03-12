@@ -12,14 +12,14 @@
       justify-content: center;
       background-color: #472000;
       font-family: JetbrainsMono;
-      font-size: 120%;
-      line-height: 2.2;
+      font-size: calc(0.8vw + 1.4vh);
+      line-height: 2;
     "
   >
-    <a href="/updates" style="color: #000000; text-decoration: none"
+    <!-- <a href="html/updates.html" style="color: #000000; text-decoration: none"
       >Update Stream</a
     >
-    &nbsp;&nbsp;|&nbsp;&nbsp;
+    &nbsp;&nbsp;|&nbsp;&nbsp; -->
     <a
       href="https://github.com/InventBoss/Futurez.net"
       style="color: #000000; text-decoration: none"
