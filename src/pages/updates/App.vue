@@ -17,7 +17,7 @@ export default {
 #app {
   font-family: JetbrainsMono;
   height: 100vh;
-  background-image: url(../../assets/MarsBackgroundTemp.png);
+  background-image: url(../../assets/MarsBackground.png);
   background-size: 20%;
   -ms-interpolation-mode: nearest-neighbor;
   image-rendering: pixelated;

@@ -50,8 +50,8 @@ export default {
 <style>
 #app {
   height: 100vh;
-  background-image: url(../src/assets/MarsBackgroundTemp.png);
-  background-size: 20%;
+  background-image: url(../src/assets/MarsBackground.png);
+  background-size: 45%;
   -ms-interpolation-mode: nearest-neighbor;
   image-rendering: pixelated;
 }

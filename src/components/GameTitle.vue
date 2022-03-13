@@ -6,8 +6,8 @@
     class="title"
     ref="gameTitle"
     style="
-      width: 99.5%;
       outline: none;
+      width: 49.7vw;
       border: 0;
       background-color: #472000;
       text-align: center;

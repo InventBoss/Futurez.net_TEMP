@@ -29,7 +29,6 @@ module.exports = {
       directionX = -1;
       directionY = 1;
     }
-    console.log(`x: ${directionX}, y: ${directionY}`);
 
     const drawBox = () => {
       ctx.beginPath();
@@ -75,6 +74,6 @@ module.exports = {
         directionY = -directionY;
       }
     };
-    setInterval(draw, 100);
+    setInterval(draw, 75);
   },
 };
