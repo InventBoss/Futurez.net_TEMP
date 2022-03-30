@@ -1,7 +1,7 @@
 # Futurez.net
 
 ## Ideas
-This game will be written using the [Vue](https://cli.vuejs.org/) CLI.
+This game is written using the [Vue](https://cli.vuejs.org/) CLI.
 
 The main gameplay loop will be a space "colony builder" where you buy infrastructure to create more money.
 
